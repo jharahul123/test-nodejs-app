@@ -1,10 +1,10 @@
-pipeline { 
+ pipeline { 
   
    agent any
 
    stages {
    
-     stage('Install Dependencies') { 
+     stage('Install Dependencies asap') { 
         steps { 
            sh 'npm install' 
         }
