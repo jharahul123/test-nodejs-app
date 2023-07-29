@@ -6,19 +6,22 @@
    
      stage('Install Dependencies asap') { 
         steps { 
-           sh 'npm install' 
+         echo 'building the application'
+           //sh 'npm install' /
         }
      }
      
      stage('Test') { 
         steps { 
-           sh 'echo "testing application..."'
+         echo 'testing the application'
+           //sh 'echo "testing application..."'//
         }
       }
 
          stage("Deploy application") { 
          steps { 
-           sh 'echo "deploying application..."'
+          echo 'deploying the application'
+           //sh 'echo "deploying application..."'//
          }
 
      }
