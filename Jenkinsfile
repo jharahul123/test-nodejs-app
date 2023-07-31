@@ -13,7 +13,7 @@
      
      stage('Test') { 
         steps { 
-         echo 'testing the applications'
+         echo 'testing the application'
            //sh 'echo "testing application..."'//
         }
       }
