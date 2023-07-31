@@ -20,7 +20,7 @@
 
          stage("Deploy application") { 
          steps { 
-          echo 'deploying the application'
+          echo 'deploying the applications'
            //sh 'echo "deploying application..."'//
          }
 
