@@ -6,7 +6,7 @@
    
      stage('Install Dependencies asap') { 
         steps { 
-         echo 'building the applicationsss'
+         echo 'building the applicationss'
            //sh 'npm install' /
         }
      }
